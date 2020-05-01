@@ -8,13 +8,13 @@
 # Site settings
 title: Junseok Homepage
 email: 21700302@handong.edu
-description: The Liberal Jekyll Theme
+description: OSSLab
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://junduck15.github.io/" # the base hostname & protocol for your site
 twitter_username: hemang_kumar
 github_username: Junduck15
 paginate: 5
-theme-dark: false #Set to true to change to dark website theme
+theme-dark: true #Set to true to change to dark website theme
 
 plugins: [jekyll-paginate, kramdown]
 
