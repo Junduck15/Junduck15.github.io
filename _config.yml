@@ -1,116 +1,51 @@
-# ----
-# Site
+# Site settings
+name: John Smith
+description: "Nifty little description"
+url: "https://junduck15.github.io"
 
-title: Justice Template
-url: "https://junduck15.github.io/"
-baseurl: 
-google_analytics_key:
-google_maps_javascript_api_key:
-disqus_shortname:
 
-# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /siteicon.png
-description: Jekyll template with example content for a law firm.
-author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
-social:
-  name: Justice Template
-  links:
-    - https://github.com/CloudCannon/justice-jekyll-template
+# Delete the lines you don't need
+# about 5 elements are recomended
+github_username:  dashingcode
+codepen_username: your_codepen_username_goes_here
+facebook_username: your_facebook_username_goes_here
+vk_username: your_vk_username_goes_here
+twitter_username: your_twitter_username_goes_here
+google_plus_username: your_google_plus_username_goes_here
+linkedin_username: your_linked_in_username_goes_here
+vine_username:  your_vine_username_goes_here
+instagram_username:  your_instagram_username_goes_here
+flickr_username: your_flickr_username_goes_here
+steam_username: your_steam_username_goes_here
+soundcloud_username:  your_soundcloud_username_goes_here
+stack_of_username: your_stack_overflow_account_id_number_goes_here
+reddit_username: your_reddit_username_goes_here
+medium_username:  your_medium_username_goes_here
+tumblr_username: your_tumblr_username_goes_here
+weibo_username: your_weibo_username_goes_here
+lastfm_username: your_lastfm_username_goes_here
+blog_url: "/blog"
+email: your-email@example.domain
+public_key_url: "https://raw.pastebin.com/LINK-TO-PUBLIC-KEY"
 
-# -----
-# Build
 
-timezone: Etc/UTC
+avatar: yes
+#avatar_img_path: "imgs/avatar.jpg""
+# You can link to your GitHub image. That way it will get updated
+# automatically whenever you change your GitHub profile picture
+avatar_img_path: "https://avatars2.githubusercontent.com/u/17301305"
 
-paginate: 10
-paginate_path: "/advice/:num/"
 
-collections:
-  - "staff_members"
+front_img: yes
+front_img_path: "imgs/background.jpg"
+#front_img_path: "https://external.url/image.jpg"
 
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: page
-      background_image_path: /uploads/building.jpg
-      image: /uploads/building.jpg
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: post
-      _options:
-        content:
-          width: 960
-          height: 2000
-      _comments:
-        image: Shown in social shares and the advice list.
-  -
-    scope:
-      path: ""
-      type: "staff_members"
-    values:
-      _options:
-        image:
-          width: 440
-          height: 440
 
+favicon_img: yes
+favicon_img_path: "imgs/favicon.ico"
+#favicon_img_path: "https://external.url/favicon.ico"
+
+
+# Build settings
+markdown: kramdown
 permalink: pretty
-
-jekyll-archives:
-  enabled:
-    - categories
-
-plugins:
-  - jekyll-archives
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-feed
-  - jekyll-paginate
-
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - LICENCE
-
-# -----------
-# CloudCannon
-
-call_to_actions:
-  - Contact
-  - Advice
-  - Map
-
-social_icons:
-  - Facebook
-  - Google Plus
-  - Instagram
-  - LinkedIn
-  - Pinterest
-  - Tumblr
-  - Twitter
-  - YouTube
-  - RSS
-
-_comments:
-  large_header: Toggles the size of the top banner.
-  show_in_navigation: Toggles a link in the top banner.
-  author_staff_member: The staff member writing this post.
-  call_to_action: Type of request shown at the bottom of this page.
-  background_image_path: Image shown in the top banner, blank for the default.
-  testimonials: Update, add or remove testimonials.
-  map: Update the map location and display settings.
-  latitude: Coordinates for the center marker on the map.
-  longitude: Coordinates for the center marker on the map.
-  zoom: The zoom level for the map.
-  phone_extension: The digits after dialing the company phone.
-  credentials: Shown as subtext on staff member summaries.
-  contact_email_address: Address for the contact form to send to.
-  new_window: Whether the link opens a new browser tab/window.
