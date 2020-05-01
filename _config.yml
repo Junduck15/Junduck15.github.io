@@ -1,36 +1,21 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
 # Site settings
-name: Junseok Park
-description: "About me"
-url: "https://junduck15.github.io"
+title: Gravity
+email: 21700302@handong.edu
+description: The Liberal Jekyll Theme
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://junduck15.github.io/" # the base hostname & protocol for your site
+twitter_username: hemang_kumar
+github_username: Junduck15
+paginate: 5
+theme-dark: false #Set to true to change to dark website theme
 
-
-# Delete the lines you don't need
-# about 5 elements are recomended
-github_username:  dashingcode
-codepen_username: your_codepen_username_goes_here
-facebook_username: your_facebook_username_goes_here
-twitter_username: your_twitter_username_goes_here
-instagram_username:  your_instagram_username_goes_here
-
-
-
-avatar: yes
-#avatar_img_path: "imgs/avatar.jpg""
-# You can link to your GitHub image. That way it will get updated
-# automatically whenever you change your GitHub profile picture
-avatar_img_path: "https://avatars2.githubusercontent.com/u/17301305"
-
-
-front_img: yes
-front_img_path: "imgs/background.jpg"
-#front_img_path: "https://external.url/image.jpg"
-
-
-favicon_img: yes
-favicon_img_path: "imgs/favicon.ico"
-#favicon_img_path: "https://external.url/favicon.ico"
-
-
+plugins: [jekyll-paginate, kramdown]
 # Build settings
 markdown: kramdown
-permalink: pretty
