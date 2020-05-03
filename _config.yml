@@ -10,7 +10,7 @@ title: Junseok Homepage
 email: 21700302@handong.edu
 description: OSSLab
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://junduck15.github.io/" # the base hostname & protocol for your site
+url: "https://junduck15.github.io" # the base hostname & protocol for your site
 twitter_username: hemang_kumar
 github_username: Junduck15
 paginate: 5
