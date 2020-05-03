@@ -1,25 +1,45 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+title: "Junseok's Homepage"
+author: "Junseok Park"
+description: "About Junseok"
+lang: "en"
 
-# Site settings
-title: Junseok Homepage
-email: 21700302@handong.edu
-description: OSSLab
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://junduck15.github.io" # the base hostname & protocol for your site
-twitter_username: hemang_kumar
-github_username: Junduck15
-paginate: 5
-theme-dark: true #Set to true to change to dark website theme
+remote_theme: niklasbuschmann/contrast
 
-plugins: [jekyll-paginate, kramdown]
 
-# Build settings
-markdown: kramdown
+# Page settings
+permalink: /:title/          # see https://jekyllrb.com/docs/permalinks/
+date_format: "%B %d, %Y"     # see http://shopify.github.io/liquid/filters/date/
+paginate: 2                 # use "layout: paginate" in the index.html to enable pagination
+
+# Theme settings
+hide_title: false            # remove site heading in the header
+hide_footer: false           # hide the "previous" and "next" links at the end of each post
+dark_theme: true            # use the dark mode as default
+dark_header: false           # keep the header dark
+dark_footer: false           # keep the footer dark
+# style: minimal             # use a simpler style inspired by the minima theme
+
+navigation:                  # site navigation in the header
+  - index.html
+  - README.md
+  - archive.md
+#  - title: "https://"       # linking external sites is also supported
+
+icons:                       # (optional) fontawesome icons in the header
+  envelope: "mailto:21700302@handong.edu"
+  github: "https://github.com/Junduck15"
+
+comments:                    # embed disqus or isso comments
+#  disqus: ""
+#  isso: ""
+
+plugins: 
+ - jekyll-feed
+ - jekyll-paginate
+ - jekyll-default-layout
+ - jekyll-remote-theme
+
+theme: jekyll-theme-modernist
 
 
 
