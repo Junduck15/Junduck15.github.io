@@ -1,4 +1,5 @@
-My activity in college
+---
+title: My activity in college
 ---
 # 즉흥적 새벽두시
 
