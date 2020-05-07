@@ -1,4 +1,4 @@
-## Welcome to My github Page
+## Welcome to Junseok's github Page
 
 # Topics
  * Junseok's college life
